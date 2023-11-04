@@ -1,0 +1,38 @@
+@media screen and (max-width: 1200px){
+    container{
+        width: 94%;
+        grid-template-columns: 7rem auto 7rem;
+    }
+    aside .logo{
+        display: none;
+    }
+    aside .sidebar h3{
+        display: none;
+    }
+    aside .sidebar a{
+        width: 5.5rem;
+    }
+    aside .sidebar a:last-child{
+        position: relative;
+        margin-top: 1.6rem;
+    }
+    main .insights{
+        display: block;
+        grid-template-columns: 1fr;
+        gap: 0;
+        font-size: 5px;
+    }
+    main .recent-orders{
+        width: 94%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 2rem 0 0 8.5rem;
+    }
+    main .recent-orders table{
+        width: 83vw;
+    }
+    main table thead tr th:last-child, main table thead tr th:first-child{
+        display: none;
+    }
+}
